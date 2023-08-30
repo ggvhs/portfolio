@@ -10,17 +10,9 @@ export default function PopulationCube() {
     meshRef.current.rotation.y += 0.01;
   });
 
-  const handleMouseEnter =() => {
-    setHover(true);
-  }
-
-  const handleMouseLeave = () => {
-    setHover(false)
-  }
-
   return (
     <>
-    <mesh ref={meshRef}>
+    <mesh ref={meshRef}  >
       <boxGeometry />
       <meshNormalMaterial />
     </mesh>
