@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import { useFrame } from '@react-three/fiber';
-import {Html, PivotControls, TrackballControls, OrbitControls} from '@react-three/drei'
+
 
 export default function PopulationApp() {
   const meshRef = useRef();
