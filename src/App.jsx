@@ -1,7 +1,7 @@
 import './style.css';
 import { Canvas } from '@react-three/fiber';
-import PopulationApp from './populationApp';
 import TitleOverlay from './TitleOverlay';
+import PopulationCube from './PopulationCube';
 
 
 
@@ -13,7 +13,7 @@ function App() {
     <>
       
       <Canvas className='Canvas' >
-        <PopulationApp />
+        <PopulationCube />
       </Canvas>
       <TitleOverlay />
     </>
