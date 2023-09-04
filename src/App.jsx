@@ -4,6 +4,7 @@ import TitleOverlay from './TitleOverlay';
 import PopulationCube from './PopulationCube';
 import Resume from './Resume';
 import GithubLink from './Links/GithubLink'
+import LinkedinLink from './Links/LinkedinLink';
 // import LinkedinLink from './Links/LinkedinLink'
 
 
@@ -19,6 +20,7 @@ function App() {
       </Canvas>
       <TitleOverlay />
       <GithubLink />
+      <LinkedinLink />
       <Resume />
     </>
   )
