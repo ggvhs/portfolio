@@ -18,10 +18,10 @@ function App() {
       <Canvas className='Canvas' >
         <PopulationCube />
       </Canvas>
-      <TitleOverlay />
+     <TitleOverlay />
       <GithubLink />
       <LinkedinLink />
-      <Resume />
+      <Resume /> 
     </>
   )
 }
