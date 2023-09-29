@@ -1,6 +1,6 @@
 # My Portfolio
 
-[My deployed site](https://portfolio-ggvhs.netlify.app)
+[My deployed site](https://ggvhs-portfolio.netlify.app/)
 
 ## Technologies used:
 
